@@ -24,9 +24,11 @@ bash-3.2$ wc README.md *.md
 둘중하나를 선택적으로 인자로 넣을 수 있다  
 ``` shell
 bash-3.2$ touch test
+bash-3.2$ mkdir test_dir
 bash-3.2$ mv test test2
+bash-3.2$ mv test_dir test_dir2
 bash-3.2$ ls
-README.md       test2
+README.md       test2           test_dir2
 ```
 * stdin  
 키보드와 같은 표준 입력
